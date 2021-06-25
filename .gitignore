@@ -1,0 +1,13 @@
+.bash_history
+.cache/
+.ipython/
+.jupyter/
+.keras/
+
+
+env/
+
+models/*
+!models/.gitkeep
+
+*.sh
