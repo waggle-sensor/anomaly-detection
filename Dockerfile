@@ -5,7 +5,7 @@ RUN apt-get install ffmpeg libsm6 libxext6  -y
 
 RUN pip3 install --upgrade pip
 RUN pip3 install numpy scipy sklearn opencv-contrib-python tqdm tensorflow
-RUN pip3 install matplotlib pillow imageio
+RUN pip3 install matplotlib pillow imageio parse
 RUN pip3 install tensorflow-probability
 
 ENV CUDA_VISIBLE_DEVICES=0
