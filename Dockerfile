@@ -7,6 +7,7 @@ RUN pip3 install --upgrade pip
 RUN pip3 install numpy scipy sklearn opencv-contrib-python tqdm tensorflow
 RUN pip3 install matplotlib pillow imageio parse
 RUN pip3 install tensorflow-probability
+RUN pip3 install scikit-image parse
 
 ENV CUDA_VISIBLE_DEVICES=0
 ENV TF_FORCE_GPU_ALLOW_GROWTH='true'
